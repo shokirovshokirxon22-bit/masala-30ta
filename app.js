@@ -379,3 +379,147 @@
 
 // ================================================================================================================================================
 
+// 31.Oddiy matematik amallar ketma-ketligi string ko’rinishida
+// funksiyaga argument sifatida beriladi. Ushbu funksiya matematik ifodani bajarib natijani qaytarsin.
+
+// function calc(str) {
+//     return eval(str);
+// }
+// console.log(calc("13+2-5*2"));
+
+// ===============================================================================================================================================
+
+// 32.Shunday funksiya yasangki, unda 2ta butun son argument
+// qilib beriladi. Agar ushbu sonlardan birontasi 10ga teng bo’lsa
+// yoki ularning yig’indisi 10ga teng bo’lsa funksiya rost qiymat
+// qaytaradi. Aks hold yolg’on.
+
+// function teng10(x , y) {
+//     if(x + y == 10 || x == 10 || y == 10){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// console.log(teng10(1 , 9));
+
+// =========================================================================================================================================
+
+// 33.Mashina kilometriga 10litr benzin ichadi. Mashina doim
+// yo’lga chiqishdan oldin kamida 100litr benzin bilan chiqadi.
+// Agar masofa funksiyaga argument sifatida berilsa, ushbu masofaga chiqish uchun Mashina necha litr benzin bilan chiqishi
+// keraglini funksiya qaytarib bersin.
+
+// function litrMasofa(km) {
+//     return km * 10;
+// }
+// console.log(litrMasofa(15));
+
+// =======================================================================================================================================================
+
+// 34.Quyidagi namunaga nazar tashlagan holda funksiya yasang.
+// Namuna:
+// fun(3, 7) ᔍ 7
+// fun(-1, 0) ᔍ 0
+
+// function fun(x , y){
+//     if(x > y){
+//         return x;
+//     }
+//     else{
+//         return y;
+//     }
+// }
+
+// console.log(fun(2 , -10));
+
+// =========================================================================================================================================================
+
+// 35.Funksiya 2ta argument berilsa, funksiya anashu 2ta argumentdan iborat massiv qaytarsin.
+
+
+// function arr(x, y) {
+//     let ms = [x , y];
+//     return ms
+// }
+// console.log(arr(1, 2));
+
+// ========================================================================================================================================
+
+// 36.Funksiyaga 2ta argument sifatida string ko’rinishidagi ma’lumotlar beriladi. Agar ushbu ikkala stringdagi belgilar soni bir
+// birinikiga teng bo’lsa funksiya rost qiymat qaytarsin, aks hold
+// yolg’on.
+
+// function tengStrings(str1, str2) {
+//     if(str1.lenght = str2.lenght){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+
+// console.log(tengStrings("ABC" , "CD"));
+
+// ====================================================================================================================================================
+
+// 37.Shunday funksiya yasangki, unga string argument qilib
+// beriladi, agar ushbu string bo’sh bo’lsa funksiya true qaytaradi,
+// aks holda false.
+
+// function boshStr(str) {
+//     if(str == ""){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }   
+// console.log(boshStr(" "));
+
+// ========================================================================================================================================================================
+
+// 38.Shunday funksiya yasang.Unda butun son argument qilib
+// beriladi. Agar ushbu butun son 5ga bo’linsa, funksiya true
+// qaytarsin, aks holda false.
+
+// function bolinsin5(son) {
+//     if(son % 5 == 0){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// console.log(bolinsin5(5));
+
+// ========================================================================================================================================
+
+// 39.Shunday funksiya yasang.Unda butun son argument qilib
+// beriladi. Agar ushbu butun son 100ga bo’linsa, funksiya true
+// qaytarsin, aks holda false.
+
+// function bolinsin100(son) {
+//     if(son % 100 == 0){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// console.log(bolinsin100(1));
+
+// ======================================================================================================================================
+
+// 40.Shunday funksiya yasangki, ushbu funksiya stringni ichida
+// nechta belgi borligini aytsin. Bunda length propertisidan foydalanmang va rekursiv funksiya ishlating.
+
+// function uzunlik(str) {
+//     return str.length;
+// }
+// console.log(uzunlik("apple"));
+
+// =======================================================================================================================================
+
+
